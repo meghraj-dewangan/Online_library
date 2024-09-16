@@ -1,0 +1,23 @@
+.welcomeimage{
+
+    background-image: url("./Image/welcomepage.jpg");
+    width: 100vw;
+    height: 9rem;
+    background-size: cover;
+    margin-left: 3px;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    
+    overflow-x: hidden;
+    
+
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .welcomeimage{
+        height: 15rem;
+    }
+}
+
+
+
