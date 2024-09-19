@@ -13,6 +13,7 @@ import { useSelector } from 'react-redux';
 function BrowseBook() {
 
   const addedBook = useSelector((state) => state.cart.Books);
+  console.log(addedBook)
 
   const [newAddedBook, setNewAddedBook] = useState([...Books]);
   useEffect(() => {
@@ -36,9 +37,10 @@ function BrowseBook() {
   //filter books by title or author based on the search 
 
 
-  const filteredBooks = newAddedBook.filter((book) =>
-    book.title.toLowerCase().includes(seachBook.toLowerCase()) ||
+  const filteredBooks = newAddedBook.filter((book) =>{
+   return book.title.toLowerCase().includes(seachBook.toLowerCase()) ||
     book.author.toLowerCase().includes(seachBook.toLowerCase())
+  }
   );
 
 
