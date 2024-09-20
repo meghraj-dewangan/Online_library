@@ -1,6 +1,6 @@
-# ShoppyGlobe - E-commerce Web Application
+# Online Library System
 
-Welcome to **ShoppyGlobe**, an e-commerce application built using React and Redux. This platform allows users to browse, add books to the cart, and filter books by category and rating.
+Welcome to **Online Library System**, an librart application built using React and Redux. This platform allows users to browse, add books to the cart, and filter books by category and rating.
 
 ## Features
 
