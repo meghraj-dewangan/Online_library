@@ -178,7 +178,7 @@ function AddBook() {
                                 value={bookData.coverImage}
                                 onChange={handleChange}
                                 placeholder="Enter image URL"
-
+                                required
 
                             />
 
